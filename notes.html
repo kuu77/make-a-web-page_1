@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Alex's Lesson Notes</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+
+	<body>
+		<h1>Lesson Notes</h1>
+
+			<div class="content">
+				<h2>
+					<span>Why start programming with Web development?</span>
+				</h2>
+				<p>
+					Web development is a great way to start writing code, because you will instantly be able to see changes that you make to the code in a <em>Web browser</em>. With other programming languages, you need more experience to see the code as anything more than a pile of text, symbols, and numbers.
+				</p>
+
+				<p>
+					Shard Concepts
+
+					Many concepts in HTML and CSS also apply for other languages. A great example of this is avoiding repetition in your code. It is very important to avoid repetition. Not only is it unnecessararily wasted time, but it is also a common source of errors.
+				</p>
+			</div>
+
+			<div class ="content">
+				<h2>
+					<span>HTML, CSS, Javascript, and DOM</span>
+				</h2>
+				<p>
+					HTML is the Webpage's structure. CSS is the style of the Webpage. Javascript is interactive components. All three languages must follow their language's syntax.
+					<br><br>
+					HTML - HyperText Markup Language - the standard markup language used to create web pages. Everything is organized in a box. Boxes are designed with div tags.
+					<br><br>
+					CSS - Cascading Style Sheets - style sheet language used for describing the look and formatting of a document written in a markup language.
+					<br><br>
+					DOM - Document Object Model - a cross-platform and language-independent convention for representing and interacting with objects in HTML and other markup languages (XHTML and XML). The nodes of every document are organized in a tree structure, called the DOM tree. HTML, along with XHTML and XML, are tree-like in structure, because sections of the documents may be broken down into branches, which are defined by different tags. They are all part of the larger html tag, which could be treated like the trunk of the tree. Elements in HTML inherit features from other elements that they are inside, as smaller branches get their nutrients from the larger branches which they are connected to.
+				</p>
+
+			</div>
+
+			<div class="content">
+				<h2>
+					HTML Important Concepts
+				</h2>
+				<p>
+					<span class = "titles">What is the difference between span and div elements?</span>
+					<br><br>
+					Span elements are <em>inline</em>, while divs are <em>block-level</em>, which means nothing else can share the same line with a div element. However, adding the rule display: flex; to the appropriate CSS element can override this.
+				</p>
+				<p>
+					<span class = "titles">Ids and Classes</span>
+					<br><br>
+					Ids are used to uniquely identify an element in the entire web page. That means  id="welcome" should be the only element with the unique identifier: "welcome". There should not be any other element with the name "welcome". You may also identify ids with a # sign before the word in quotes.
+					<br><br>
+					Classes are used to style a group of elements similarly. Let's use the analogy of a floorboard in a house. Each floorboard can represent an element and we want to assign all of these elements class="floorboard" where the floorboard styling rule will contain the color to be "brown" since floorboards are usually brown.
+				</p>
+			</div>
+
+			<div class = "content">
+				<h2>
+					CSS Important Concepts
+				</h2>
+				<p>
+					<span class = "titles">Adding CSS Style</span>
+					<br><br>
+					Add a single line at the top of the HTML document, to tell the browser that it is HTML. This is the doctype declaration. In the head tag, add a link to the CSS file by typing "link rel="stylesheet" type="text/css" href=""" in tags. In the quotes following href, enter the name of the CSS file.
+					<br><br>
+					You also have the option to add CSS without creating a separate file. Simply put your CSS code between two style tags in the head of the document. This is good for smaller HTML documents.
+					<br><br>
+					As a third option, you can also place CSS inline in the HTML document between two style tags. Generally not a good idea, as it can lead to repeated code.
+					<br><br>
+					In your CSS code, you can add a rule to any HTML tags on the page. Simply select a tag, and add a style that will apply to that tag in the brackets.
+				</p>
+				<p>
+					<span class = "titles">Inheritance</span>
+					<br><br>
+					Inheritance is an important feature of CSS. It allows properties to be not only applied to a specific element, but also to its decendants. 
+					<br><br>
+					Developers are not expected to remember all of the CSS properties available. Refer to <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference">documentation</a> as needed.
+				</p>
+			</div>
+
+			<div class ="content">
+				<h2>
+					Validating HTML and CSS
+				</h2>
+				<p>
+					It is important to ensure that your code will work flawlessly. Luckily for us, there is a Webpage for both ensuring that your HTML and CSS files have no issues:&nbsp;&nbsp;
+					To verify HTML <a href="http://validator.w3.org/#validate_by_input">Click Here</a>&nbsp;&nbsp;
+					To verify CSS <a href="http://jigsaw.w3.org/css-validator/#validate_by_input">Click Here</a>
+
+				</p>
+			</div>
+
+	</body>
+
+</html>

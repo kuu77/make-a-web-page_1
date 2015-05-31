@@ -1,0 +1,28 @@
+body {
+	font-family: tahoma;
+	font-size: 1.1em;
+	padding: 10px 10px;
+	max-width: 1500px;
+	margin: 0 auto;
+	background-color: #000c00
+}
+
+h1 {
+	text-align: center;
+	color: #32cd32;
+}
+
+h2 {
+	text-align: center;
+	color: #32cd32;
+}
+
+.titles {
+	text-align: center;
+	font-weight: bold;
+	font-size: large;
+}
+
+.content {
+	color: #32cd32;
+}
